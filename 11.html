@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function smallImg(x) {
+            x.style.height = "32px";
+            x.style.width = "32px";
+        }
+        function bigImg(x) {
+            x.style.height = "128px";
+            x.style.width = "128px";
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouseover</title>
+</head>
+
+<body>
+    <h1 onmouseover="style.color='Orange'" onmouseout="style.color='black'">Hover Cursor</h1>
+    <img onmouseover="bigImg(this)" onmouseout="smallImg(this)" src="logo.webp" alt="ig" width="32" height="32" >
+    <p>My favourite social media app is ig. This is the logog of ig. it is basically a camera. It is in the form of a square. It has a variety of colours.</p>
+</body>
+
+</html>
